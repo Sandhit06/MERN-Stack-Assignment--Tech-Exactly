@@ -268,3 +268,40 @@ Reports: `server/coverage/`, `client/coverage/`, `playwright-report/`, and failu
 ### Reference documentation
 
 [React](https://react.dev/) · [Express](https://expressjs.com/) · [Mongoose](https://mongoosejs.com/docs/) · [Google OAuth](https://developers.google.com/identity/protocols/oauth2/web-server) · [Passport Google](https://www.passportjs.org/packages/passport-google-oauth20/) · [Passport Facebook](https://www.passportjs.org/packages/passport-facebook/) · [Playwright](https://playwright.dev/docs/intro)
+
+
+## Still need help?
+Open an issue on our GitHub repository, and we will help you as soon as possible.
+
+Enjoy exploring and extending this project! Feel free to contribute and suggest improvements.
+
+## Contact
+
+If you want to contact me you can reach me at [Twitter](https://x.com/SandhitK).
+
+## Developer
+<table>
+    <tr align="center">
+        <td>
+        Sandhit Karmakar
+        <p align="center">
+            <img src = "https://avatars.githubusercontent.com/u/90787826?v=4" width="150" height="150" alt="Dhruv Shah">
+        </p>
+            <p align="center">
+                <a href="https://github.com/Sandhit06">
+                    <img src="https://api.iconify.design/mdi:github.svg?color=%230088cc" width="36" height="36" alt="GitHub"/>
+                </a>
+                <a href="https://www.linkedin.com/in/sandhit-karmakar/" target="_blank">
+                    <img src="https://api.iconify.design/mdi:linkedin.svg?color=%230088cc" width="36" height="36" alt="LinkedIn"/>
+                </a>
+                <a href="mailto:sandhitkarmakar@gmail.com" target="_blank">
+                    <img src="https://api.iconify.design/mdi:email.svg?color=%230088cc" width="36" height="36" alt="Email"/>
+                </a>
+            </p>
+        </td>
+    </tr>
+</table>
+
+<p align="center">
+    Made with ❤️ by <a href="https://github.com/Sandhit06">Sandhit Karmakar</a>
+</p>

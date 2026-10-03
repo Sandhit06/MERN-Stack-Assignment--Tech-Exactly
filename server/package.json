@@ -1,0 +1,46 @@
+{
+  "name": "@margin/server",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js",
+    "seed": "node scripts/seed.js",
+    "test": "jest --runInBand",
+    "test:coverage": "jest --runInBand --coverage"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.2.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.19.3",
+    "passport": "^0.7.0",
+    "passport-facebook": "^3.0.0",
+    "passport-google-oauth20": "^2.0.0",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "supertest": "^7.1.4"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testTimeout": 120000,
+    "collectCoverageFrom": [
+      "src/services/**/*.js",
+      "src/middleware/**/*.js",
+      "src/utils/**/*.js",
+      "src/validators/**/*.js"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "statements": 80,
+        "branches": 80
+      }
+    }
+  }
+}

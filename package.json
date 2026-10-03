@@ -1,0 +1,37 @@
+{
+  "name": "margin",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Margin — stories worth sharing, conversations worth having.",
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "setup": "node scripts/setup.cjs",
+    "db": "node scripts/database.cjs",
+    "dev": "concurrently -k -n api,web -c blue,green \"npm run dev -w server\" \"npm run dev -w client\"",
+    "seed": "npm run seed -w server",
+    "build": "npm run build -w client",
+    "start": "npm start -w server",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "npm test -w server && npm test -w client",
+    "test:coverage": "npm run test:coverage -w server && npm run test:coverage -w client",
+    "test:e2e": "playwright test"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@playwright/test": "^1.56.1",
+    "concurrently": "^9.2.1",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "globals": "^16.5.0",
+    "mongodb-memory-server": "^10.3.0",
+    "prettier": "^3.6.2"
+  }
+}

@@ -1,6 +1,6 @@
 # MERN blog assignment: implementation and test plan
 
-Status: planning complete; application implementation and test execution have not started.
+Status: original planning record. Implementation subsequently completed locally; see README.md and docs/TESTING.md for the delivered scope, executed checks, and remaining provider setup. The planning text below is preserved as the original design proposal, not the current build status.
 Reviewed on 2 October 2026. Source: all three pages of `MERN Stack Assignment.pdf`.
 The workspace initially contained only this PDF. No separate requirements or existing code were present.
 

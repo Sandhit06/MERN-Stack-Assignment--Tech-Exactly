@@ -1,0 +1,10 @@
+node_modules
+package-lock.json
+client/dist
+**/coverage
+.local
+tmp
+playwright-report
+test-results
+*.pdf
+PROJECT_PLAN.md

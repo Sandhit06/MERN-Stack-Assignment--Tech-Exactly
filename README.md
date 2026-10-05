@@ -6,7 +6,6 @@ Margin is a complete local MERN blog application for publishing stories and havi
 
 Built for the Tech Exactly MERN Stack Assignment. The name comes from the space around a page: room for ideas, notes, and another person's perspective.
 
-> **New to the project?** Start with [README_FOR_SANDHIT.md](README_FOR_SANDHIT.md). It explains the setup, code, and testing in plain language.
 
 ![Margin's reading room](docs/images/reading-room.png)
 

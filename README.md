@@ -15,6 +15,9 @@ Built for the Tech Exactly MERN Stack Assignment. The name comes from the space 
 
 </details>
 
+## Demo
+https://drive.google.com/file/d/1Fzw2h-SPB_XZ3sj2bVn_J7fbhZcp2Zoi/view?usp=sharing
+
 ## What is included
 
 - A responsive React reading room, story pages, writing editor, and My Stories.
